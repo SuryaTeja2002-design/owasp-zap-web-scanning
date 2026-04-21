@@ -105,15 +105,15 @@ The following screenshots were captured during the live assessment on Kali Linux
 
 **DVWA Login Page — Target confirmed live:**
 
-![DVWA Login](screenshots/dvwa_login.png)
+<img width="1351" height="856" alt="image" src="https://github.com/user-attachments/assets/82e60482-7c44-44fb-b00a-f2c0257b54c8" />
 
 **DVWA Dashboard — Vulnerability modules visible:**
 
-![DVWA Dashboard](screenshots/dvwa_dashboard.png)
+<img width="1568" height="507" alt="image" src="https://github.com/user-attachments/assets/3fc22131-6d17-4351-93c9-fa1851bddbe5" />
 
 **OWASP ZAP Active Scan — 36% progress, actively scanning:**
 
-![ZAP Active Scan](screenshots/zap_active_scan.png)
+<img width="1372" height="875" alt="image" src="https://github.com/user-attachments/assets/1791d483-f56c-4285-b67e-4ebb308d8499" />
 
 ---
 
@@ -123,10 +123,6 @@ The following screenshots were captured during the live assessment on Kali Linux
 owasp-zap-web-scanning/
 ├── README.md                      ← This file
 ├── OWASP_ZAP_Portfolio_Report.docx ← Full written report
-└── screenshots/
-    ├── dvwa_login.png             ← DVWA login page
-    ├── dvwa_dashboard.png         ← DVWA vulnerability modules
-    └── zap_active_scan.png        ← ZAP scan in progress
 ```
 
 ---
