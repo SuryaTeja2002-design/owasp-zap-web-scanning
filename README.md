@@ -1,6 +1,5 @@
 # Web App Scanning with OWASP ZAP
-
-> **Cybersecurity Portfolio Project #5**  
+  
 > Tools: OWASP ZAP 2.17.0 | Target: DVWA | Platform: Kali Linux | Date: April 2026
 
 ---
