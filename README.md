@@ -1,11 +1,11 @@
-# 🔍 Web App Scanning with OWASP ZAP
+# Web App Scanning with OWASP ZAP
 
 > **Cybersecurity Portfolio Project #5**  
 > Tools: OWASP ZAP 2.17.0 | Target: DVWA | Platform: Kali Linux | Date: April 2026
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project demonstrates web application vulnerability scanning using **OWASP ZAP (Zed Attack Proxy)**, one of the most widely used open-source web app security tools in the world. The target was **DVWA (Damn Vulnerable Web Application)** — a deliberately vulnerable app designed for security training.
 
@@ -13,7 +13,7 @@ All scanning was performed in a controlled, isolated lab environment against sys
 
 ---
 
-## 🧪 Lab Environment
+## Lab Environment
 
 | Component | Details |
 |-----------|---------|
@@ -27,7 +27,7 @@ All scanning was performed in a controlled, isolated lab environment against sys
 
 ---
 
-## 🛠️ Setup & Configuration
+## Setup & Configuration
 
 ### Services Started
 ```bash
@@ -53,22 +53,22 @@ zaproxy
 
 ---
 
-## 🚀 Scan Performed
+## Scan Performed
 
 ### Automated Scan
 Using ZAP's built-in **Automated Scan** feature:
 - URL targeted: `http://127.x.x.x/dvwa`
-- Traditional Spider: ✅ Enabled
-- Ajax Spider: ✅ Enabled
-- Active Scan: ✅ Running
+- Traditional Spider: Enabled
+- Ajax Spider: Enabled
+- Active Scan: Running
 
 The automated scan performs two phases:
 1. **Spider** — crawls the entire web app, mapping all pages and endpoints
-2. **Active Scan** — fires attack payloads at every endpoint testing for vulnerabilities
+2. **Active Scan** — fires attack payloads at every endpoint, testing for vulnerabilities
 
 ---
 
-## 📊 DVWA Vulnerability Modules Targeted
+## DVWA Vulnerability Modules Targeted
 
 | Module | Vulnerability Type | OWASP Category |
 |--------|-------------------|----------------|
@@ -85,7 +85,7 @@ The automated scan performs two phases:
 
 ---
 
-## 🔐 Security Analysis
+## Security Analysis
 
 **Why DVWA is used for training:**
 DVWA intentionally contains all OWASP Top 10 vulnerability classes, making it the ideal target for learning how scanners like ZAP detect real-world issues without risking unauthorized access to live systems.
@@ -117,7 +117,7 @@ The following screenshots were captured during the live assessment on Kali Linux
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 owasp-zap-web-scanning/
@@ -127,7 +127,7 @@ owasp-zap-web-scanning/
 
 ---
 
-## 🛠️ ZAP Features Used
+## ZAP Features Used
 
 | Feature | Purpose |
 |---------|---------|
@@ -140,16 +140,9 @@ owasp-zap-web-scanning/
 
 ---
 
-## ⚠️ Ethical Notice
+## Ethical Notice
 
 All scanning in this project was performed exclusively against **DVWA**, a deliberately vulnerable application running on systems I own and control in a private lab environment. **Scanning web applications without explicit written authorization is illegal.** Always obtain permission before conducting any security assessment.
 
 ---
 
-## 🔗 Related Projects
-
-- [ ] Project 1 — Active Directory Setup & User Management
-- [ ] Project 2 — Cloud Security Risk Assessment (GRC)
-- [ ] Project 3 — Log File Analysis / SIEM Virtualization
-- [x] Project 4 — Network & Host Scanning with Nmap ✅
-- [x] Project 5 — Web App Scanning with OWASP ZAP ✅
