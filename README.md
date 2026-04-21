@@ -98,7 +98,7 @@ DVWA intentionally contains all OWASP Top 10 vulnerability classes, making it th
 
 ---
 
-## 🖼️ Evidence — Live Scan Screenshots
+## Evidence — Live Scan Screenshots
 
 The following screenshots were captured during the live assessment on Kali Linux.
 
