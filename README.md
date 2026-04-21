@@ -143,6 +143,3 @@ owasp-zap-web-scanning/
 ## Ethical Notice
 
 All scanning in this project was performed exclusively against **DVWA**, a deliberately vulnerable application running on systems I own and control in a private lab environment. **Scanning web applications without explicit written authorization is illegal.** Always obtain permission before conducting any security assessment.
-
----
-
